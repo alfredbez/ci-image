@@ -7,4 +7,4 @@ RUN docker-php-ext-install bcmath && \
 	docker-php-ext-install zip && \
 	docker-php-ext-install pdo_mysql
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+# COPY --from=composer:1.9 /usr/bin/composer /usr/bin/composer
